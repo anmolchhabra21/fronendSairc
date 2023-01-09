@@ -1,0 +1,58 @@
+@media screen and (max-width: 1000px) {
+   /* bodyProfile */
+  .ha-body-cover-suggestions{
+    display: block;
+  }
+
+  /* suggestionsProfile */
+  .ha-suggestions{
+    margin: 2rem 0rem;
+    width: 100%;
+  }
+
+  .ha-suggestions > h3{
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  
+  /* imageGallery */
+  .ha-single-img{
+    height: 15rem;
+  }
+
+  .ha-organisation-container {
+    flex-wrap: wrap;
+  }
+
+  /* profileHeader  */
+  .ha-edit-add-organisation-header{
+    bottom: 10rem;
+  }
+
+  /* organisation  */
+  .body-organisation-container-tabs-outer, .ha-organisation-main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .ha-sidebar-organisation {
+    width: 100%;
+  }
+
+  .ha-sidebar-organisation-item {
+    border-right: none;
+  }
+
+  .ha-prof-header {
+    background-size: unset;
+  }
+  .body-organisation-container-tabs-outer, .ha-body-main-tabs-container, .ha-body-cover-suggestions {
+    width: 100% !important;
+  }
+
+  .ha-posts-gallery-container {
+    margin: 0;
+  }
+}

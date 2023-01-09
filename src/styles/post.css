@@ -1,0 +1,40 @@
+.post {
+  width: 92%;
+  margin: 10px 0;
+}
+
+.post > .post-card {
+  border-radius: .6rem;
+  padding: 20px;
+}
+
+.carousel-caption-container {
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.post-carousel-image {
+  border-radius: 15px;
+  height: 300px;
+  object-fit: cover;
+  width: 100%;
+  padding: 10px;
+}
+
+@media (max-width: 800px) {
+  .post {
+    margin: 5px 0;
+  }
+
+  .post > .post-card {
+    padding: 10px;
+  }
+
+  .post-carousel-image {
+    border-radius: 15px;
+    height: 150px;
+    object-fit: cover;
+    width: 100%;
+    padding: 4px;
+  }
+}

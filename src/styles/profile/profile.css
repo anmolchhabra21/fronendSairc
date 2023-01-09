@@ -1,0 +1,9 @@
+.ha-profile-main{
+  display: flex;
+}
+
+/* @media screen and (max-width: 600px) {
+  .ha-profile-main{
+    display: block;
+  }
+} */

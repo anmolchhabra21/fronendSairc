@@ -1,0 +1,14 @@
+.writer-button {
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 18px;
+	min-width: 80px;
+}
+
+.modal-content {
+	border-radius: 20px;
+}
+
+.job-editor-input-container {
+	padding: 10px;
+}

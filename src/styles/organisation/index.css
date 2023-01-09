@@ -1,0 +1,11 @@
+:root {
+  font-size: 45%;
+}
+
+.ha-organisation-main{
+  display: flex;
+}
+
+.ha-organisation-main {
+  width: 100vw;
+}

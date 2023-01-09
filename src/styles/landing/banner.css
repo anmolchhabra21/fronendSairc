@@ -1,0 +1,133 @@
+/* banner */
+.landing-banner-image-overlay-container {
+  position: relative;
+  width: 100vw;
+  min-height: 98.4vh;
+  /*background: url('../../assets/images/campus/admin-complex.jpg');*/
+
+  /* Parallax
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;*/
+}
+
+.landing-banner-image {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  z-index: -4;
+}
+
+.landing-banner-image-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100vw;
+  opacity: 0;
+  transition: .5s ease;
+  /*background-color: rgba(1, 65, 139, 0.77);*/
+  background-color: rgba(1, 65, 139, 0.32);
+}
+
+.landing-banner-image-overlay-container .landing-banner-image-overlay {
+  opacity: 1;
+}
+
+.landing-banner-image-overlay-text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+
+.landing-banner-image-overlay-text-heading {
+  font-family: Source Code Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4.5rem;
+  line-height: 7.5rem;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.landing-banner-image-overlay-text-subheading {
+  position: relative;
+}
+
+.landing-banner-image-overlay-text-subheading-image {
+  width: 320px;
+}
+
+.landing-banner-image-overlay-text-subheading-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100vw;
+  opacity: 0;
+  transition: .5s ease;
+  z-index: 2000;
+  opacity: 1;
+}
+
+.landing-banner-image-overlay-text-subheading-overlay-image {
+  width: 200px;
+}
+
+.landing-banner-image-overlay-text-subheading-overlay-controls {
+	margin: 10px;
+	font-size: 2rem;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	/*background: rgba(0, 0, 0, 0.4);*/
+	border-radius: 50%;
+	/*border: 2px dashed white;*/
+	position: absolute;
+	bottom: 2rem;
+	color: white;
+}
+
+.landing-banner-image-overlay-text-subheading-overlay-controls-inner {
+	width: 100%;
+	height: 100%;
+}
+
+@media (min-width: 800px) {
+  .landing-banner-image-overlay-container {
+    mix-blend-mode: normal;
+    clip-path: ellipse(180% 100% at 50% 0%);
+  }
+
+  .landing-banner-image-overlay-text-subheading-image {
+    padding-top: 10px;
+    -webkit-animation: spin 10s linear infinite;
+    animation: spin 10s linear infinite;
+  } 
+  .landing-banner-image-overlay-text-subheading-overlay-image {
+    padding: 0px;
+  }
+}
+
+@media (max-width: 800px) {
+  .landing-banner-image-overlay-text-heading {
+    font-size: 1.6rem;
+  }
+
+  .landing-banner-image-overlay-container {
+    min-height: 100vh;
+  }
+}

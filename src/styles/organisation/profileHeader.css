@@ -1,0 +1,65 @@
+:root{
+  --custom-blue: #01418B;
+  --highlight-blue: #055ec5;
+}
+
+.ha-prof-header {
+  background-image: url('../../assets/images/campus/bg-1.jpeg');
+  background-position: center;
+  height: 40vh;
+  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /*background-size: 100%;*/
+  background-position: 0px -100px;
+}
+
+.ha-btn-white{
+  padding: 0.3rem 1rem;
+  background: #ffffff;
+  border-radius: 5px;
+  border: 0.2rem solid var(--custom-blue);
+  font-family: Lato;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--custom-blue);
+  margin-right: 0.5rem;
+}
+
+.ha-btn-white:hover{
+  color: var(--highlight-blue);
+  box-shadow: 0 0 0.5rem var(--highlight-blue);
+}
+
+
+.ha-edit-add-organisation-header{
+  position: absolute;
+  display: flex;
+  align-items: center;
+
+  right: 0;
+  bottom: 0;
+  margin: 1rem 0.5rem;
+}
+
+ /* font awesome icons */
+.ha-plus-fa{
+  color: var(--highlight-blue);
+  font-size: 1.6rem;
+}
+
+.ha-info-fa{
+  font-size: 2.5rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.ha-info-fa:hover{
+  transform: scale(1.1);
+}
+
+/* @media screen and (max-width: 600px) {
+  .ha-edit-add-organisation-header{
+    bottom: 10rem;
+  }
+} */

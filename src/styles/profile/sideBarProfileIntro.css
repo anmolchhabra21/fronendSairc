@@ -1,0 +1,50 @@
+:root{
+  --custom-blue: #01418B;
+  --highlight-blue: #055ec5;
+  --custom-gray: #A8A8AB;
+}
+
+.ha-sidebar-profile-intro{
+  /* position: relative; */
+  /* top: 30%; */
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.7962535355939251) 26%, rgba(255,255,255,1) 100%);
+}
+
+.ha-profile-dp{
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  border: 3px red solid;
+}
+
+
+.ha-profile-username{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+.ha-profile-bio{
+  font-family: Lato;
+  font-style: normal;
+  /* font-weight: bold; */
+  font-size: 1.5rem;
+  color: var(--custom-gray);
+}
+
+.ha-tiny-text{
+  font-size: 1rem !important;
+}
+
+.ha-tiny-text:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.ha-connections{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

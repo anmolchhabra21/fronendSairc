@@ -1,0 +1,64 @@
+:root{
+  --custom-blue: #01418B;
+  --highlight-blue: #055ec5;
+  --custom-gray: #A8A8AB;
+  font-size: 50%;
+}
+
+
+.ha-sidebar-profile{
+  min-width: 35rem;
+  /* min-width: ; */
+  /* transform: translateY(-10rem); */
+  /* background-color: grey; */
+}
+
+.div_ha_edit_sidebar{
+  width: 100%;
+  /* display: block; */
+  /* cursor: pointer; */
+}
+
+.ha_edit_sidebar_icon{
+  cursor: pointer;
+}
+
+.ha-profile-dp{
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.ha-sidebar-profile-item{
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 1rem;
+  border-right: red solid 3px;
+  /* max-width: 40rem; */
+  align-items: center;
+  padding: 2rem 3rem;
+  justify-content: flex-end;
+}
+
+.ha-sidebar-btns{
+  border-radius: 5px;
+  font-family: Lato;
+  font-style: normal;
+  /* font-weight: bold; */
+  font-size: 1.5rem;
+  /* padding: 0.5rem 0.5rem; */
+  height: 3.3rem;
+  width: 9.4rem;
+  border: 1px solid var(--custom-blue);
+  margin: 0.5rem 1rem;
+}
+
+.ha-sidebar-btn-blue{
+  background: var(--custom-blue);
+  color: #fff;
+}
+
+.ha-sidebar-btn-white{
+  background: #fff;
+  color: var(--custom-blue);
+}

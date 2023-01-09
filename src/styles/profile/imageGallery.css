@@ -1,0 +1,27 @@
+.ha-posts-gallery-container{
+  /* display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(20rem, 1fr)); */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: white;
+  padding: 2rem 0;
+  border-radius: 2rem;
+}
+
+.ha-single-img-container{
+  margin: 0.5rem;
+  border: white solid 1px;
+  box-shadow: 0 -1rem 0.5rem rgba(17, 52, 167, 0.425) inset;
+  border-radius: 1rem;
+}
+
+.ha-single-img{
+  height: 20rem;
+}
+
+/* @media screen and (max-width: 600px) {
+  .ha-single-img{
+    height: 15rem;
+  }
+} */

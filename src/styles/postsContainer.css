@@ -1,0 +1,31 @@
+.posts-container {
+	width: 64%;
+	padding: 20px;
+	box-sizing: content-box;
+}
+
+
+.posts-container-tab:hover {
+	color: #05438b !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-top: none !important;
+}
+
+.nascent-posts-container-tab {
+	border: 0;
+	color: grey !important;
+}
+
+#posts-container-tabs-tabpane-connections {
+	margin-top: 20px;
+}
+
+.selected-posts-container-tab {
+	color: #05438b !important;
+	font-weight: bold;
+	border-bottom: 2px solid #05438b !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-top: none !important;
+}

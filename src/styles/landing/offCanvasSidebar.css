@@ -1,0 +1,29 @@
+#landing-topbar-burger {
+  cursor: pointer;
+}
+
+div.offcanvas.offcanvas-end.show > div.offcanvas-header > button.btn-close {
+  font-size: 24px !important;
+}
+
+div.offcanvas.offcanvas-end.show, .offcanvas-body, .offcanvas-header {
+  max-width: 100% !important;
+}
+
+.offcsb-menu-item {
+  padding: 8px;
+  border: 2px dashed grey;
+  font-size: 1.6rem;
+  font-weight: bold;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin-bottom: 2px;
+}
+
+@media (max-width: 800px) {
+  .offcanvas, .offcanvas-body {
+    padding: 0 !important;
+    width: 95% !important;
+  }
+}

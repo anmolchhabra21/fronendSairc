@@ -1,0 +1,250 @@
+:root{
+  --custom-blue: #01418B;
+  --highlight-blue: #055ec5;
+  font-size: 50%;
+}
+
+
+.ha-form-cover{
+  position: absolute;
+  right: 5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30%;
+}
+
+
+.ha-sign-in-up-form{
+  padding: 1rem 3rem 1rem 3rem;
+  border-radius: 5px;
+  border: 1px solid var(--custom-blue);
+  margin-bottom: 2rem;
+  background: #FFFFFF;
+}
+
+.ha-sign-in-up-form > h1 {
+  font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 5rem;
+line-height: 5rem;
+margin: 2rem 0;
+}
+
+.ha-sign-in-up-form > img{
+  width: 13rem;
+}
+
+.ha-text{
+  display: block;
+  width: 90%;
+  height: 4rem;
+  border: 1px solid #A8A8AB;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 0.5rem 1.5rem;
+  margin: 1rem 0;
+  font-size: 1.7rem;
+  outline: none;
+}
+
+.ha-sign-in-up-form > span{
+  display: flex;
+}
+
+.ha-checkbox{
+  transform: scale(1.15);
+  margin-right: 0.5rem;
+}
+
+.ha-sign-in-up-form > span > label {
+  font-family: Lato;
+font-weight: 600;
+font-size: 1.7rem;
+color: var(--custom-blue);
+}
+
+.ha-sign-in-up-form > p{
+  margin-top: 2rem;
+}
+
+.ha-sign-in-up-form > p > span{
+  font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 1.7rem;
+/* line-height: 26px; */
+color: var(--custom-blue);
+cursor: pointer;
+}
+
+.ha-sign-in-up-form > p > span:hover {
+  color: var(--highlight-blue);
+  text-decoration: underline;
+}
+
+.ha-sign-in-up-form > p > span:active{
+  color: var(--custom-blue);
+  text-decoration: underline;
+} 
+
+.ha-sign-form-btn {
+  background: var(--custom-blue);
+box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+padding: 1rem 3rem;
+font-family: Lato;
+font-size: 2rem;
+color: #fff;
+margin: 1rem 1rem 1rem 0;
+cursor: pointer;
+}
+
+.ha-sign-form-btn:hover{
+  background: var(--highlight-blue);
+}
+
+.ha-sign-form-btn:active{
+  background: var(--custom-blue);
+}
+
+.ha-sign-in-up-form > .ha-cover-or{
+  width: 100%;
+  text-align: center;
+  font-size: 2.2rem;
+  position: relative;
+  background-color: #fff;
+}
+
+.ha-sign-in-up-form > .ha-cover-or::after{
+  content: '';
+  width: 100%;
+  border-bottom: solid 1.5px #000;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: 1;
+}
+
+.ha-sign-in-up-form > .ha-cover-or > h3{
+
+  position: relative;
+  display: inline-block;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.2rem;
+  /* line-height: 2rem; */
+  width: auto;
+  color: var(--custom-blue);
+  background-color: #fff;
+  padding: 0 1rem;
+  z-index: 3;
+}
+
+
+.ha-cover-other-signin{
+  border: 1px solid var(--custom-blue);
+box-sizing: border-box;
+border-radius: 5px;
+/* position: relative; */
+padding:0;
+position: relative;
+height: 5rem;
+}
+
+
+.ha-cover-other-signin > a > img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 3rem;
+  margin: 0;
+}
+
+.ha-cover-other-signin > a > img:hover{
+  filter: brightness(110%);
+  /* transform: scale(1.1); */
+}
+
+.ha-cover-new-user{
+  /* width: 100%; */
+  text-align: center;
+  background: #FFFFFF;
+  padding: 1rem;
+  border: 1px solid var(--custom-blue);
+  border-radius: 5px;
+  /* display: flex; */
+}
+
+.ha-cover-new-user > h2{
+  font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 2rem;
+line-height: 3rem;
+}
+
+.ha-cover-new-user > h2 >span {
+  font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 2rem;
+line-height: 3rem;
+text-decoration-line: underline;
+color: var(--custom-blue);
+margin-left: 1.5rem;
+cursor: pointer;
+}
+
+.ha-cover-new-user > h2 >span:hover{
+  color: var(--highlight-blue);
+}
+
+/* SignUpPass */
+
+.ha-show-pass-icon{
+  transform: translateX(-150%);
+  color: gray;
+  font-size: 1.7rem;
+  align-self: center;
+}
+
+.ha-show-pass-icon:hover{
+  color: darkgray;
+}
+
+.ha-agree-checkbox{
+   /* align-self: flex-start; */
+   justify-self: start;
+  /* margin-top: ;
+  line-height: 1.8rem; */
+  /* transform: translateY(50%); */
+}
+
+.ha-agree-check-text{
+font-family: Lato;
+font-style: normal;
+font-weight: 500;
+font-size: 1.5rem;
+line-height: 1.8rem;
+margin-bottom: 0;
+}
+
+.ha-link{
+  color: var(--custom-blue);
+}
+.ha-link:hover{
+  color: var(--highlight-blue);
+}
+
+@media (max-width: 1100px) {
+  .ha-form-cover{
+    right: 50%;
+    transform: translate(50%, -50%);
+    min-width: 350px;
+    width: auto;
+    /* margin: 0; */
+  }
+}

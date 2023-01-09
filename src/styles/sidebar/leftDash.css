@@ -1,0 +1,131 @@
+.left-dash {
+  height: 100vh;
+  width: 18%;
+  /*position: fixed;*/
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  max-width: 20%;
+  padding: 20px;
+  padding-right: 0px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 6vh;
+  background: linear-gradient(#05438b, #05438b, #05438b, #05438b, #555);
+  border-radius: 0 20px 20px 0;
+  transition: 0.5s all;
+  font-family: 'Roboto', sans-serif;
+  bottom: 0;
+  text-align: center;
+}
+
+
+/*.left-dash .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}*/
+
+.ld-menu-list > .ld-menu-item-link {
+  border-radius: 16px 0 0 16px;
+}
+
+.ld-menu-list > .ld-menu-item-link > .ld-menu-item {
+  padding: 10px;
+  font-weight: bold;
+  background: transparent !important;
+  border: 0;
+  font-size: 18px;
+}
+
+.ld-menu-list > .ld-menu-item-link > .ld-menu-item {
+	color: white;
+}
+
+.ld-menu-list > .selected-menu-item-link {
+	background-color: #eee !important;
+}
+
+.ld-menu-list > .selected-menu-item-link > .ld-menu-item > div > .ld-menu-item-text {
+	color: #05438b !important;
+}
+
+.ld-menu-item:hover {
+	color: whitesmoke;
+}
+
+.ld-menu-item-text-icon {
+  padding: 4px;
+  width: 30px;
+}
+
+.ld-menu-item-text {
+  text-decoration: none;
+}
+
+.ld-menu-item-link {
+  text-decoration: none;
+}
+
+.ld-menu-item-link:hover {
+  background: palevioletred;
+}
+
+.ld-horizontal-dash {
+  display: none;
+}
+
+@media(max-width: 800px) {
+  .left-dash {
+    width: 3px;
+    padding: 0;
+  }
+
+  .ld-horizontal-dash {
+    display: flex;
+    flex-direction: row; 
+    height: 100%;
+    width: 100%;
+    padding: 4px;
+    justify-content: space-around;
+    align-items: center;
+    overflow-x: auto;
+  }
+
+  .ld-horizontal-dash-block {
+    padding: 3px;
+    font-size: 24px;
+    width: 24vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ld-horizontal-dash-block:hover {
+    background: palevioletred;
+  }
+
+  .ld-horizontal-dash-logo-block {
+    padding: 0 3px 3px 3px;
+    font-size: 24px;
+    width: 24vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ld-horizontal-dash-block-item {
+    width: 100%;
+    height: 100%;
+  }
+
+}

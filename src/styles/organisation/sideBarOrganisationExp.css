@@ -1,0 +1,60 @@
+.ha-sidebar-organisation-exp{
+  background: #fff;
+  padding-bottom: 0.5rem;
+}
+
+.ha-organisation-exp-title{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.5rem;
+  /* line-height: 30px; */
+}
+
+.ha-organisation-exp-list{
+  font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 1.2rem;
+padding-left: 0;
+margin-bottom: 0  ;
+/* line-height: 18px; */
+}
+
+.ha-organisation-exp-list-item{
+  display: flex;
+  /* justify-content: center; */
+  justify-items: center;
+  margin-bottom: 2rem;
+}
+
+.ha-company-logo{
+  height: 5rem;
+}
+
+.ha-organisation-exp-more-btn{
+  background: #fff;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--custom-gray);
+  position: relative;
+  width: 100%;
+}
+.ha-organisation-exp-more-btn:hover{
+  text-decoration: underline;
+}
+
+hr.ha-more-btn-line{
+  color: var(--custom-gray);
+  width: 100%;
+  height: 0.2rem;
+  opacity: 0.5;
+  margin-bottom: 0;
+}
+
+/* .ha-organisation-exp-more-btn:before{
+  content: '';
+  width: inherit;
+  border-top: 2px solid var(--custom-gray);
+  position: absolute;
+} */

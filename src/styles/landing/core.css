@@ -1,0 +1,7 @@
+/*react-burger-menu*/
+.landing-main-content {
+	display: flex;
+	flex-direction: column;
+	max-width: 100vw;
+	width: 100vw;
+}

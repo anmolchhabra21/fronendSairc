@@ -1,0 +1,38 @@
+.ha-sidebar-organisation-acad{
+  background: #fff;
+}
+
+.ha-acad-title{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.ha-sidebar-acad-details{
+  width: 100%;
+}
+
+.ha-sidebar-acad-details > div{
+  width: 100%;
+}
+
+.ha-sidebar-acad-details > div > small{
+  font-family: Lato;
+  font-style: normal;
+  /* font-weight: bold; */
+  font-size: 1.2rem;
+  /* line-height: 1.6rem; */
+  color: var(--custom-gray);
+  text-align: left;
+}
+
+.ha-sidebar-acad-details > div > h7{
+  font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 1.2rem;
+/* line-height: 1.6rem; */
+float: right;
+color: var(--custom-blue);
+}

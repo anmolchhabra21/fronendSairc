@@ -1,0 +1,52 @@
+.landing-footer-container {
+	min-height: 400px;
+	background: url('../../assets/images/campus/workshop-building.jpg');
+	padding: 0 !important;
+
+	/* Parallax */
+	background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.landing-footer-container-inner {
+	width: 100%;
+	background: rgba(1, 65, 139, 0.77);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.landing-footer-image-container {
+	width: 100%;
+}
+
+.landing-footer-image-container-inner {
+	display: flex;
+}
+
+.landing-footer-image {
+	max-width: 80%;
+	width: 750px;
+}
+
+@media (max-width: 800px) {
+	.landing-footer-container {
+		min-height: 200px;
+	}
+
+	.landing-footer-image-container {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.landing-footer-image {
+		margin: 10px auto;
+		max-width: 90%;
+	}
+}

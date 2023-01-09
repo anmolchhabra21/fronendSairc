@@ -1,0 +1,99 @@
+.search-filter-list-container {
+	height: 8%;
+	overflow-x: auto; 
+	padding: 10px;
+}
+
+.search-filter-container {
+
+}
+
+.search-main-filter-container {
+	position: relative;
+	padding: 5px;
+}
+
+.search-main-filter-container:after {
+	  content: "";
+    background: darkgrey;
+    position: absolute;
+    width: 1px;
+    right: -4px;
+    top: 12px;
+    height: 25px;
+}
+
+.search-main-filter-dropdown-toggle {
+	border: none;
+}
+
+.search-sub-filter-container {
+	position: relative;
+	padding: 10px 10px 10px 10px;
+}
+
+.search-sub-filter-container:after {
+	content: "";
+  background: darkgrey;
+  position: absolute;
+  width: 1px;
+  height: 25px;
+  right: 0;
+}
+
+.search-filter-main-button {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.search-filter-button {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	border-radius: 20px;
+	color: #555;
+	font-weight: bold;
+	padding: 8px;
+	font-size: 14px;
+	min-width: 90px;
+	margin: 0 3px 0 3px;	
+	border: 1px dotted darkgrey;
+	box-sizing: border-box;
+	text-overflow: clip;
+}
+
+.search-filter-button:hover {
+	border: 1px solid grey;
+	background-color: #eee;
+	box-sizing: border-box;
+	color: #555;
+	cursor: pointer;
+}
+
+.search-filter-button-selected {
+	background-color: #05438b;
+	color: white;
+	box-sizing: border-box;
+	border: 1px solid grey;
+	/*At the beginning of 2022, find out about the books we are eagerly awaiting this year!*/
+}
+
+.search-reset-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	color: #555;
+	font-weight: bold;
+	padding: 8px;
+	font-size: 14px;
+	min-width: 60px;
+	margin: 0 3px 0 3px;
+	box-sizing: border-box;
+}
+
+.search-reset-container:hover {
+	cursor: pointer;
+	color: #111;
+}

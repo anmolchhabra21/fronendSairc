@@ -1,0 +1,83 @@
+.landing-contribute-container {
+	background: url('../../assets/images/campus/contribute-banner.png');
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-height: 300px;
+	padding: 30px;
+	justify-content: space-around;
+
+	/* parallax */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	margin: 20px 0 40px 0;
+}
+
+.landing-contribute-heading-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.landing-contribute-subheading-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.landing-contribute-heading {
+	font-size: 3rem;
+	text-align: center;
+}
+
+.landing-contribute-subheading {
+	font-size: 3rem;
+	font-weight: bold;
+	text-align: center;
+}
+
+.landing-contribute-button {
+	text-decoration: none;
+	color: white;
+	font-size: large;
+	font-family: 'Source Code Pro', sans-serif;
+	font-weight: bold;
+	width: 30%;
+	transition: all .5s;
+}
+
+.landing-contribute-button:hover {
+	color: white;
+
+}
+
+.landing-contribute-button:hover .landing-contribute-button-container {
+	background: #01218B;
+}
+
+.landing-contribute-button-container {
+	border: 2px solid #eee;
+	display: flex;
+	justify-content: center;
+	border-radius: 15px;
+	transition: all .5s;
+}
+
+.landing-contribute-button-container-inner {
+	padding: 20px;
+}
+
+@media (max-width:  800px) {
+	.landing-contribute-button {
+		width: 80%;
+	}
+}

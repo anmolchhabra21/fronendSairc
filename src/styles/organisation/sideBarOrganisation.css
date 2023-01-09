@@ -1,0 +1,46 @@
+:root {
+  --custom-blue: #01418B;
+  --highlight-blue: #055ec5;
+  --custom-gray: #A8A8AB;
+}
+
+
+.ha-sidebar-organisation{
+  /*min-width: 35rem;*/
+  /* min-width: ; */
+  width: 25vw;
+  transform: translateY(-10rem);
+}
+
+.ha-sidebar-organisation-item{
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 1rem;
+  border-right: red solid 3px;
+  /* max-width: 40rem; */
+  align-items: center;
+  padding: 2rem 3rem;
+}
+
+.ha-sidebar-btns{
+  border-radius: 5px;
+  font-family: Lato;
+  font-style: normal;
+  /* font-weight: bold; */
+  font-size: 1.5rem;
+  /* padding: 0.5rem 0.5rem; */
+  height: 3.3rem;
+  width: 9.4rem;
+  border: 1px solid var(--custom-blue);
+  margin: 0.5rem 1rem;
+}
+
+.ha-sidebar-btn-blue{
+  background: var(--custom-blue);
+  color: #fff;
+}
+
+.ha-sidebar-btn-white{
+  background: #fff;
+  color: var(--custom-blue);
+}
